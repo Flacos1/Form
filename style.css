@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin:0 auto;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid black;
+}
+p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+#lastname{
+    margin-left: 10px;
+}
+input{
+    width: 200px;
+}
+input[type='radio']{
+    width:10px;
+    margin-right: 20px ;
+}
+.a{
+    display: flex;
+}
+.c{
+    margin-left: 14px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+.d {
+    margin-top: 20px;
+}
+#address,#email,#course,#mobile,#textarea{
+    width: 420px;
+}
+input[type="submit"]{
+    background: black;
+    color: white;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin:  0 auto;
+    
+}

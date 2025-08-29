@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form  id="f" action="success.html">
+        <h1>Student Registration Form</h1>
+        <p>Fill out the form for registration</p><br>
+        <div class="d">
+            <label for="firstname">Name</label>
+            <label for="lastname"></label>
+            <div class="b">
+                <input type="text" id="firstname" pattern="[A-Za-z]+" placeholder="First">
+                <input type="text" id="lastname" pattern="[a-z]+" placeholder="Last">
+            </div>
+        </div>
+        <div class="a d">
+            <div>
+                <label for="birthday">Birth Date</label>
+                <input type="date" id="birthday">
+            </div>
+            <div class="c">   
+                <label>Gender</label>
+                <input type="radio" value="Male" name="a">Male<br>
+                <input type="radio"  value="Female" name="a">Female<br>
+                <input type="radio"  value="Other" name="a">Other<br>
+            </div>
+        </div>
+        <div class="d">
+            <label for="address">Address</label>
+            <input type="text" id="address"><br>
+        </div>
+        <div class="d">
+            <label for="email">E-mail</label>
+            <input type="email" id="email"><br>
+        </div>
+        <div class="d">
+            <label for="mobile">Phone</label>
+            <input type="tel" pattern="[0-9]{10}" id="mobile"><br>
+        </div>
+        <div class="d">
+            <label for="course">Courses</label>
+            <select  id="course">
+                <option value=""> Please select</option>
+                <option value="Web development"> Web development</option>
+                <option value="Data visualization"> Data visualization</option>
+            </select>
+        </div>
+        <div class="d">
+            <label for="textarea">Comments</label>
+            <textarea  id="textarea"></textarea><br>
+        </div>
+        <div class="d">
+            <label for="submit"></label>
+            <input type="submit" id="submit" value="Submit Application">
+        </div>
+    </form>
+</body>
+</html>
