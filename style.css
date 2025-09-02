@@ -6,7 +6,7 @@
 form{
     margin:0 auto;
     padding: 20px;
-    width: 50%;
+    width: 40%;
     border: 1px solid black;
     font-size: 1.3rem;
 }
@@ -52,5 +52,6 @@ input[type="submit"]{
 @media(max-width:760px){
     form{
         font-size: 1rem;
+        width: 99%;
     }
 }
